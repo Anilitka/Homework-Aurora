@@ -12,6 +12,7 @@ font-weight: 400;
 font-size: 36px;
 line-height: 32px;
 color: #FFFFFF;
+transition: all .3s ease-in;
 position: relative;
 }
 .navbar-brand::after{
@@ -39,6 +40,7 @@ margin-left: 395px;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;  
+    transition: all .3s ease-in;
     position: relative;
 }
 .nav-link::after{
