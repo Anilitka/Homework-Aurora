@@ -6,6 +6,21 @@ font-weight: 400;
 font-size: 36px;
 line-height: 32px;
 color: #FFFFFF;
+ position: relative;
+ transition: all .3s ease-in;
+}
+.navbar-brand::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 3px;
+    background-color: #FFFFFF;
+    transition: all .3s ease-in;
+}
+.navbar-brand:hover::after{
+    width: 100%;
 }
 .about{
 
@@ -19,6 +34,21 @@ margin-left: 395px;
     font-size: 18px;
     line-height: 21px;
     color: #FFFFFF;  
+     transition: all .3s ease-in;
+    position: relative;
+}
+.nav-link::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #FFFFFF;
+    transition: all .3s ease-in;
+}
+.nav-link:hover::after{
+    width: 100%;
 }
 .sign{
 
