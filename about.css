@@ -26,7 +26,10 @@ margin-left: 395px;
 
 
 }
+.navbar-toggler{
+background-color: #FFFFFF;
 
+}
 .navbar-toggler:hover {
     color: #ffffff;
     text-decoration: none;
