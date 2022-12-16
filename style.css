@@ -14,11 +14,11 @@ line-height: 32px;
 color: #FFFFFF;
 }
 .about{
-    display: flex;
+
 margin-left: 395px;
-gap: 10px;
+
 }
-.about a{
+.nav-link {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 600;
@@ -27,19 +27,12 @@ gap: 10px;
     color: #FFFFFF;  
 }
 .sign{
-    display: flex;
+
     margin-left: 365px;
-    gap: 10px;
+
 
 }
-.sign a{
-      font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 21px;
-color: #FFFFFF;  
-}
+
 .navbar-toggler:hover {
     color: #ffffff;
     text-decoration: none;
@@ -61,6 +54,16 @@ color: #FFFFFF;
     .sign{
         margin-left: 170px;
         gap: 5px;
+    }
+}
+@media (max-width:992px){
+    .about{
+        margin-left: 0;
+  
+    }
+    .sign{
+        margin-left: 0;
+ 
     }
 }
 .aurora{
